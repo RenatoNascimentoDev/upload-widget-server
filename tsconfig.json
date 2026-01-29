@@ -1,12 +1,15 @@
 {
-    "_version": "20.1.0",
     "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "src",
         "lib": ["es2023"],
-        "module": "node16",
+        "module": "nodeNext",
         "target": "es2022",
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "moduleResolution": "node16"
-    }
+        "moduleResolution": "node16",
+        "moduleDetection": "force"
+    },
+    "includes" : ["src"]
 }
